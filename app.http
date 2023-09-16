@@ -1,0 +1,27 @@
+GET http://localhost:3000/players/
+###
+
+GET http://localhost:3000/players/3
+###
+
+POST http://localhost:3000/players/ 
+Content-Type: application/json 
+
+{
+    "playerName": "Venkat",
+    "jerseyNumber": 5,
+    "role": "Batsman"
+}
+###
+
+GET http://localhost:3000/players/1/
+###
+
+PUT http://localhost:3000/players/4/
+Content-Type: application/json 
+
+{
+    "playerName": "Deepak",
+    "jerseyNumber": 12,
+    "role": "Bowler"
+}
