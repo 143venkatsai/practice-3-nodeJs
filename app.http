@@ -25,3 +25,6 @@ Content-Type: application/json
     "jerseyNumber": 12,
     "role": "Bowler"
 }
+### 
+
+DELETE http://localhost:3000/players/1/
